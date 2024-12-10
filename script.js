@@ -198,3 +198,46 @@ if (time >= 5 && time < 13) {
     console.log("Good Evening");
   }
 }
+
+//Ciklas:
+console.groupCollapsed("Padaugina iš 2");
+console.log("Padaugina skaičių iš 2:");
+for (let i = 1; i <= 100; i++) {
+  console.log(`${i} * 2 = ${i * 2}`);
+}
+console.groupEnd();
+
+console.groupCollapsed("Padaugina skaičių iš 5");
+console.log("Padaugina skaičių iš 5:");
+for (let i = 1; i <= 100; i++) {
+  console.log(`${i} * 5 = ${i * 5}`);
+}
+console.groupEnd();
+
+console.groupCollapsed("Prideda prie skaičiaus 5");
+console.log("Prideda prie skaičiaus 5:");
+for (let i = 1; i <= 100; i++) {
+  console.log(`${i} + 5 = ${i + 5}`);
+}
+console.groupEnd();
+
+console.groupCollapsed("Atima iš skaičiaus 2");
+console.log("Atima iš skaičiaus 2:");
+for (let i = 1; i <= 100; i++) {
+  console.log(`${i} - 2 = ${i - 2}`);
+}
+console.groupEnd();
+
+console.groupCollapsed("Pakelia skaičių kvadratu");
+console.log("Pakelia skaičių kvadratu:");
+for (let i = 1; i <= 100; i++) {
+  console.log(`${i}^2 = ${i * i}`);
+}
+console.groupEnd();
+
+console.groupCollapsed("Pakelia skaičių kūbu.");
+console.log("Pakelia skaičių kūbu:");
+for (let i = 1; i <= 100; i++) {
+  console.log(`${i}^3 = ${i * i * i}`);
+}
+console.groupEnd();
